@@ -3,10 +3,13 @@
 /*
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
+ * 
  */
  return array(
      'user1'=>array(
        'email' => 'test1@notanaddress.com',
+         'addy1'=>' addy 1....',
+         'addy2' =>'addy 2....',
        'username' => 'Test_User_One',
        'password' => MD5('test1'),
        'last_login_time' => '',

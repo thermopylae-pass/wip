@@ -55,7 +55,7 @@ class ProjectTest extends WebTestCase{
     $this->assertTrue($updatedProject instanceof Project);
     $this->assertEquals($updatedProjectName,$updatedProject->name);
     }
-    
+        
     public function testDelete(){
         $project = $this->projects('project2');
     $savedProjectId = $project->id;
